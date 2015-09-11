@@ -1,0 +1,31 @@
+
+body {
+    padding-top: 65px;
+    background-image: url(https://thewanderingangel.files.wordpress.com/2014/01/tinder-logo.png);
+    background-size: cover;
+    padding: 20px;
+}
+
+#footer {
+    width: 100%;
+    display: table;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid #000;
+}
+
+#cur-card {
+    font-size: 100px;
+} 
+
+#copyright {
+    padding: 15px;
+}
+
+.message {
+  background-color: #FFEB99;
+  border-right: 2px solid #eeeeee;
+  border-bottom: 2px solid #eeeeee;
+  margin-bottom: 15px;
+  padding: 10px;
+}

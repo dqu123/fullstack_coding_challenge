@@ -1,0 +1,14 @@
+{ "cards": [
+    {
+        "name": "Anna", 
+        "age": "27",
+        "picture": "static/images/anna.jpg",
+        "description": "Anna loves quiet reading days."
+    },
+    {
+        "name": "Emily",
+        "age": "24",
+        "picture": "static/images/emily.jpg",
+        "description": "Emily enjoys horseback riding, and beautiful scenery."
+    }
+]}
