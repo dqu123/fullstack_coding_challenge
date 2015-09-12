@@ -6,7 +6,9 @@ from Tinder import app
 @app.route('/')
 def home():
   """Returns the home page."""
-  return flask.render_template('tinder.html')
+  string = open('Tinder/static/data/data.json').read()
+  json_data = json.loads(string)
+  return flask.render_template('tinder.html', json_data=json_data)
 
 @app.route('/data')
 def get_data():

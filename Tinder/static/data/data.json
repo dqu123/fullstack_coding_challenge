@@ -2,13 +2,13 @@
     {
         "name": "Anna", 
         "age": "27",
-        "picture": "static/images/anna.jpg",
+        "picture": "static/images/anna.png",
         "description": "Anna loves quiet reading days."
     },
     {
         "name": "Emily",
         "age": "24",
-        "picture": "static/images/emily.jpg",
+        "picture": "static/images/emily.png",
         "description": "Emily enjoys horseback riding, and beautiful scenery."
     }
 ]}
