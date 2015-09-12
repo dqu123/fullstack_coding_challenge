@@ -4,6 +4,8 @@
         <title>Tinder</title>
         <link rel="stylesheet" type="text/css" 
               href="{{ url_for('static', filename='css/style.css') }}" />
+        <link rel="stylesheet" type="text/css" 
+              href="{{ url_for('static', filename='css/card-stack.css') }}" />
         <!-- Google Fonts -->
         <link href='http://fonts.googleapis.com/css?family=EB+Garamond|Roboto' rel='stylesheet' type='text/css'/>
 
@@ -42,5 +44,9 @@
                     console.log(data); 
                 });
             </script>
+            <script src="{{ url_for('static', filename='js/swing.js') }}"></script>
+            <script src="{{ url_for('static', filename='js/classList.js') }}"></script>
+            <script src="{{ url_for('static', filename='js/card-stack.js') }}"></script>
+
         </body>
 </html>
