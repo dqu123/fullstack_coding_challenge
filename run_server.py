@@ -3,5 +3,5 @@
 # settings enabled.
 from Tinder import app, config
 
-port = getattr(config, 'PORT', 80)
+port = getattr(config, 'PORT', 5000)
 app.run(debug=True, host='0.0.0.0', port=port)
