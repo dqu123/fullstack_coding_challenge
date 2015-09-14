@@ -16,6 +16,7 @@
         {% endblock head %}
     </head>
         <body style="padding-top: 65px">
+            {% include "includes/header.html" %}
             <div id="content">
                 <div id="content-body">
                     {% with messages = get_flashed_messages() %}
@@ -39,9 +40,7 @@
                 $.ajax({
                     url: "{{ url_for('get_data') }}",
                 }).done(function(data) {
-                    cardManager.init(data.cards);
-                    cardManager.renderCard($('.jumbotron')[0]);
-                    console.log(data); 
+                    cardManager.init();
                 });
             </script>
             <script src="{{ url_for('static', filename='js/swing.js') }}"></script>

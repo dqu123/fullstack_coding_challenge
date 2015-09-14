@@ -3,8 +3,6 @@
 
 <div id="viewport">
     <ul class="stack">
-        <li class="clubs"><img src="{{ url_for('static', filename='images/newdonut.png') }}"</li>
-        <li class="test">2</li>
         {% for card in json_data.cards %}
         <li>                                
             <img class="card-image" src="{{ '/' + card.picture }}"></img>

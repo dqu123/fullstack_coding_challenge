@@ -1,9 +1,18 @@
-
 body {
     padding-top: 65px;
     background-image: url(https://thewanderingangel.files.wordpress.com/2014/01/tinder-logo.png);
     background-size: cover;
     padding: 20px;
+}
+
+.glyphicon-cog {
+    font-size: 0.9em;
+}
+
+.navbar { 
+    height: 10%;
+    font-size: 5em;
+    color: rgba(255, 255, 255, 1);
 }
 
 #footer {
