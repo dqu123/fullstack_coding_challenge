@@ -1,14 +1,23 @@
 { "cards": [
     {
+        "id": "2a4js43",
         "name": "Anna", 
         "age": "27",
         "picture": "static/images/anna.png",
         "description": "Anna loves quiet reading days."
     },
     {
+        "id": "4kf4j22",
         "name": "Emily",
         "age": "24",
         "picture": "static/images/emily.png",
         "description": "Emily enjoys horseback riding, and beautiful scenery."
+    },
+    {
+        "id": "bjk42l5",
+        "name": "Kelly",
+        "age": "23",
+        "picture": "static/images/kelly.jpg",
+        "description": "Kelly's favorite place is the beach."
     }
 ]}
