@@ -4,7 +4,7 @@
 <div id="viewport">
     <ul class="stack">
         {% for card in json_data.cards %}
-        <li>                                
+        <li card_id="{{card.id}}">                                
             <img class="card-image" src="{{ '/' + card.picture }}"></img>
             {{ card.name + ', ' + card.age }}
         </li>
